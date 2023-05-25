@@ -1,1 +1,1 @@
-# S-L-2D
+# Snake-and-Ladder-2D

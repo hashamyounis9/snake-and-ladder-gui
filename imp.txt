@@ -1,0 +1,8 @@
+play    => bar(643,556,766,596);
+options => bar(643,611,766,651);
+exit    => bar(643,665,766,706);
+
+
+readimagefile("Slide1.jpg", 0, 0, 1366, 768);
+putimage(0, 0, &bgiout, 0);
+playButton();

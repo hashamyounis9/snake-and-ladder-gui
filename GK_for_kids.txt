@@ -1,0 +1,100 @@
+1.	The sun is a star and the center of our solar system.
+2.	Apples grow on trees and come in different colors.
+3.	The capital of the United States is Washington, D.C.
+4.	Elephants are the largest land animals and have long trunks.
+5.	The Earth is mostly covered by water, with many oceans and seas.
+6.	Giraffes have long necks and are the tallest animals in the world.
+7.	The Statue of Liberty is a famous landmark located in New York.
+8.	Dolphins are intelligent marine mammals known for their playful behavior.
+9.	The Great Wall of China is a long wall that can be seen from space.
+10.	Penguins are flightless birds that live in cold regions, such as Antarctica.
+11.	The moon orbits around the Earth and reflects sunlight to create moonlight.
+12.	Lions are known as the king of the jungle and live in groups called prides.
+13.	The human body has 206 bones that make up the skeletal system.
+14.	Monkeys swing from trees and are known for their agile movements.
+15.	The Eiffel Tower is a famous landmark located in Paris, France.
+16.	Butterflies undergo a transformation from caterpillars to colorful winged insects.
+17.	The Nile River is the longest river in the world, flowing through Africa.
+18.	Owls are nocturnal birds known for their ability to see in the dark.
+19.	Mount Everest is the highest mountain in the world, located in the Himalayas.
+20.	Bees are important pollinators that help plants grow by transferring pollen.
+21.	The Amazon Rainforest is the largest tropical rainforest in the world.
+22.	Tigers are large cats with distinctive stripes and are skilled hunters.
+23.	The Statue of Liberty was a gift from France to the United States.
+24.	The planet Mars is often called the "Red Planet" due to its reddish appearance.
+25.	Dolphins communicate with each other using a series of clicks and whistles.
+26.	The Taj Mahal is a beautiful marble mausoleum located in India.
+27.	Whales are the largest animals on Earth and live in the ocean.
+28.	The planet Jupiter is the largest planet in our solar system.
+29.	Bats are the only mammals that can fly.
+30.	The Sydney Opera House is an iconic performing arts center in Australia.
+31.	Cheetahs are the fastest land animals, known for their incredible speed.
+32.	The human heart pumps blood throughout the body to keep us alive.
+33.	The Colosseum is a famous ancient amphitheater located in Rome, Italy.
+34.	The planet Saturn is known for its beautiful rings made of ice and rock.
+35.	Sharks are marine predators with sharp teeth and excellent senses.
+36.	The pyramids of Egypt were built as tombs for pharaohs in ancient times.
+37.	Rabbits are furry animals known for their long ears and hopping movements.
+38.	The Great Barrier Reef is the largest coral reef system in the world.
+39.	Ants live in colonies and work together to build intricate tunnels and mounds.
+40.	The planet Venus is often called the "evening star" or "morning star."
+41.	Rainbows are colorful arcs that appear in the sky after rainfall.
+42.	Hippos are large semi-aquatic mammals and spend most of their time in water.
+43.	The Leaning Tower of Pisa is a famous tilted tower located in Italy.
+44.	Koalas are marsupials that live in eucalyptus trees and eat their leaves.
+45.	The planet Neptune is the farthest planet from the Sun in the solar system.
+46.	Dolphins use echolocation to navigate and find food underwater.
+47.	The Great Sphinx is a massive statue with the head of a human and the body of a lion.
+48.	Penguins slide on their bellies, a movement called tobogganing, to move quickly on ice.
+49.	The planet Uranus is tilted on its side, making it unique among the planets.
+50.	Honeybees live in hives and produce honey, which is a sweet and sticky food.
+51.	The Golden Gate Bridge is an iconic suspension bridge located in San Francisco, California.
+52.	Octopuses have the ability to change the color and texture of their skin for camouflage.
+53.	The Parthenon is a famous ancient Greek temple located in Athens.
+54.	Sea turtles return to the same beach where they were born to lay their eggs.
+55.	The planet Mercury is the closest planet to the Sun and experiences extreme temperatures.
+56.	Ladybugs are small beetles that are often red or orange with black spots.
+57.	The Sahara Desert is the largest hot desert in the world, located in Africa.
+58.	Orcas, also known as killer whales, are highly intelligent and social marine mammals.
+59.	The Sydney Harbour Bridge is an iconic steel arch bridge in Sydney, Australia.
+60.	Hummingbirds are tiny birds with the ability to hover in mid-air while feeding.
+61.	The Arctic is a region located around the North Pole and is covered in ice.
+62.	Sunflowers are tall plants that follow the movement of the Sun throughout the day.
+63.	The Palace Museum, also known as the Forbidden City, is located in Beijing, China.
+64.	Crocodiles are large reptiles that live in freshwater habitats and have powerful jaws.
+65.	The Sahara Desert is home to the largest sand dunes in the world.
+66.	Rainforests are dense forests with a high amount of rainfall, supporting diverse plant and animal life.
+67.	Bald eagles are majestic birds of prey and are the national bird of the United States.
+68.	The Colossus of Rhodes was a giant statue that once stood on the Greek island of Rhodes.
+69.	Polar bears are well-adapted to the cold Arctic climate and are excellent swimmers.
+70.	The Olympic Games is an international sporting event held every four years.
+71.	Venus flytraps are carnivorous plants that capture and digest insects.
+72.	The Niagara Falls is a famous waterfall located on the border of the United States and Canada.
+73.	Gorillas are the largest primates and share about 98% of their DNA with humans.
+74.	The Taj Mahal is considered one of the Seven Wonders of the World.
+75.	Hummingbirds have the ability to beat their wings rapidly, allowing them to hover in place.
+76.	The Louvre Museum in Paris is the largest art museum in the world.
+77.	Koalas have a specialized diet of eucalyptus leaves and are native to Australia.
+78.	The Sahara Desert is home to various desert-adapted animals, such as camels and scorpions.
+79.	The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.
+80.	The Andes Mountains is the longest mountain range in the world, stretching through several South American countries.
+81.	Jaguars are large feline predators found in the Americas and are known for their powerful jaws.
+82.	The Louvre Museum houses the famous painting Mona Lisa by Leonardo da Vinci.
+83.	The Nile River is closely associated with the ancient Egyptian civilization and was vital for their agriculture and transportation.
+84.	Meerkats are small mammals known for their cooperative behavior and living in underground burrows.
+85.	The Great Barrier Reef is home to a wide variety of colorful coral and marine life.
+86.	Astronauts travel to space in spacecraft, such as rockets and shuttles.
+87.	The Panama Canal is a man-made waterway that connects the Atlantic Ocean to the Pacific Ocean.
+88.	Bumblebees are fuzzy insects that help pollinate flowers and crops.
+89.	The Galapagos Islands are known for their unique and diverse wildlife, including giant tortoises and marine iguanas.
+90.	The International Space Station is a habitable satellite that orbits around the Earth.
+91.	The concept of gravity was famously explained by Sir Isaac Newton.
+92.	The Sydney Opera House is a UNESCO World Heritage Site and a popular performing arts venue.
+93.	Seahorses are small fish with unique curved bodies and long snouts.
+94.	The Sphynx is a mythical creature with the body of a lion and the head of a human or animal.
+95.	Mount Kilimanjaro is the highest mountain in Africa and attracts climbers from around the world.
+96.	Peacocks are known for their extravagant plumage and impressive courtship displays.
+97.	The Mona Lisa is a famous painting created by Leonardo da Vinci, known for her enigmatic smile.
+98.	The Red Sea is a saltwater inlet between Africa and Asia, known for its vibrant coral reefs.
+99.	Astronauts wear spacesuits to protect themselves in the harsh conditions of space.
+100.	The Loch Ness Monster, or Nessie, is a legendary creature said to inhabit Loch Ness in Scotland.
