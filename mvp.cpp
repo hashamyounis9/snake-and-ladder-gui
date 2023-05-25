@@ -1,19 +1,22 @@
 #include <graphics.h>
-#include <iostream>
-#include <ctime>
+#include <time.h>
+
+
 
 using namespace std;
 
 //Global Variables 
-int i = 0, x = 0, p1score = 0, p2score = 0, counter = 0, pagecheck = 0, exitcheck = 0, how_to_play = 0;
+int i = 0, x = 0, p1score = 0, p2score = 0, counter = 0, pagecheck = 0, exitcheck = 0, how = 0, about = 0, random,one_one, one_two,two_one,two_two;
 char p1string[5];
 char p2string[5];
 
 // Prototyping all the Functions
+void randomNum();
 void welcomePage();
 void playButton();
 void board();
-void scoreCircles();
+void scoreCircle1();
+void scoreCircle2();
 void buffer();
 void backButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight, string input_string);
 void p1DiceButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight);
@@ -29,23 +32,24 @@ void soundOffButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight)
 void howToPlayButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight);
 void aboutUsButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight);
 void backToWelcomeButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight);
-void howpage();
+void howPage();
+void aboutPage();
 void turnMusicOff();
-
 
 
 // Driver Program
 int main()
 {
-	
 	// Creating a window of given size
 	initwindow(1366, 768, "Snake and Ladder C++");
+	
 
 	int page = 0;
 	while (1)
 	{
 		setactivepage(page);
 		setvisualpage(1 - page);
+		
 		if (pagecheck == 0)
 		{
 			welcomePage();
@@ -57,7 +61,7 @@ int main()
 		{
 			playPage();
 			p1DiceButton(10, 620, 200, 50);
-			p2DiceButton(1140, 620, 200, 50);
+			p2DiceButton(1140, 620, 185, 68);
 			backButton(10, 20, 100, 70, "Exit");
 		}
 		else if (pagecheck == 2)
@@ -66,10 +70,16 @@ int main()
 			musicOffButton(510,150,345,85);
 			soundOffButton(510,272,345,85);
 			howToPlayButton(510,394,345,85);
+			if (how != 0)
+			{
+				howPage();
+			}
 			aboutUsButton(510,516,345,85);
+			if (about != 0)
+			{
+				aboutPage();
+			}
 			backToWelcomeButton(510,643,345,85);
-			
-			
 		}
 		escapeCheck();
 		page = 1 - page;
@@ -77,6 +87,12 @@ int main()
 	getch();
 	closegraph();
 	return 0;
+}
+
+void randomNum()
+{
+	srand(time(0));
+	random = ((rand() % 100) + 1);
 }
 // Defining all the Functions
 void playButton()
@@ -102,9 +118,10 @@ void playButton()
 }
 void board()
 {
+	
 	readimagefile("playPage.jpg", 0, 0, 1366, 768);
 	putimage(0, 0, &bgiout, 0);
-
+	
 	setcolor(BLACK);
 	rectangle(300, 80, 920, 650);
 	setcolor(BLACK);
@@ -709,8 +726,10 @@ void board()
 	line(864, 609, 906, 609);
 	line(864, 610, 906, 610);
 	line(864, 611, 906, 611);
+	settextstyle(0,0,2);
+	outtextxy(375, 575, "+30");
 }
-void scoreCircles()
+void scoreCircle1()
 {
 	int array_score[10][10] = {{91, 92, 93, 94, 95, 96, 97, 98, 99, 100},
 							   {81, 82, 83, 84, 85, 86, 87, 88, 89, 90},
@@ -749,33 +768,72 @@ void scoreCircles()
 	{
 		for(int k = 0; k < 10; k++)
 		{
-			if(i%2 == 0)
+			if(p1score == array_score[j][k])
 			{
-				if(p1score == array_score[j][k])
-				{
-					setcolor(WHITE);
-					circle(array_x[j][k],array_y[j][k],15);
-					circle(array_x[j][k],array_y[j][k],16);
-					circle(array_x[j][k],array_y[j][k],17);
-					break;
-					break;
-				}
-			}
-			else
-			{
-				if(p2score == array_score[j][k])
-				{
-					setcolor(BLACK);
-					circle(array_x[j][k],array_y[j][k],15);
-					circle(array_x[j][k],array_y[j][k],16);
-					circle(array_x[j][k],array_y[j][k],17);
-					break;
-					break;
-				}
-				
+				one_one = array_x[j][k];
+				one_two = array_y[j][k];
+				break;
+				break;
 			}
 		}
 	}
+	setcolor(WHITE);
+	circle(one_one,one_two,15);
+	circle(one_one,one_two,16);
+	circle(one_one,one_two,17);
+}
+void scoreCircle2()
+{
+	int array_score[10][10] = {{91, 92, 93, 94, 95, 96, 97, 98, 99, 100},
+							   {81, 82, 83, 84, 85, 86, 87, 88, 89, 90},
+							   {71, 72, 73, 74, 75, 76, 77, 78, 79, 80},
+							   {61, 62, 63, 64, 65, 66, 67, 68, 69, 70},
+							   {51, 52, 53, 54, 55, 56, 57, 58, 59, 60},
+							   {41, 42, 43, 44, 45, 46, 47, 48, 49, 50},
+							   {31, 32, 33, 34, 35, 36, 37, 38, 39, 40},
+							   {21, 22, 23, 24, 25, 26, 27, 28, 29, 30},
+							   {11, 12, 13, 14, 15, 16, 17, 18, 19, 20},
+							   {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}};
+
+	int array_y[10][10] = {{107, 107, 107, 107, 107, 107, 107, 107, 107, 107},
+						   {164, 164, 164, 164, 164, 164, 164, 164, 164, 164},
+						   {221, 221, 221, 221, 221, 221, 221, 221, 221, 221},
+						   {278, 278, 278, 278, 278, 278, 278, 278, 278, 278},
+						   {335, 335, 335, 335, 335, 335, 335, 335, 335, 335},
+						   {392, 392, 392, 392, 392, 392, 392, 392, 392, 392},
+						   {449, 449, 449, 449, 449, 449, 449, 449, 449, 449},
+						   {505, 505, 505, 505, 505, 505, 505, 505, 505, 505},
+						   {562, 562, 562, 562, 562, 562, 562, 562, 562, 562},
+						   {622, 622, 622, 622, 622, 622, 622, 622, 622, 622}};
+
+	int array_x[10][10] = {{334, 398, 458, 520, 585, 646, 710, 770, 833, 895},
+						   {334, 398, 458, 520, 585, 646, 710, 770, 833, 895},
+						   {334, 398, 458, 520, 585, 646, 710, 770, 833, 895},
+						   {334, 398, 458, 520, 585, 646, 710, 770, 833, 895},
+						   {334, 398, 458, 520, 585, 646, 710, 770, 833, 895},
+						   {334, 398, 458, 520, 585, 646, 710, 770, 833, 895},
+						   {334, 398, 458, 520, 585, 646, 710, 770, 833, 895},
+						   {334, 398, 458, 520, 585, 646, 710, 770, 833, 895},
+						   {334, 398, 458, 520, 585, 646, 710, 770, 833, 895},
+						   {334, 398, 458, 520, 585, 646, 710, 770, 833, 895}};
+						   
+	for(int j = 0; j < 10; j++)
+	{
+		for(int k = 0; k < 10; k++)
+		{
+			if(p2score == array_score[j][k])
+				{
+					two_one = array_x[j][k];
+					two_two = array_y[j][k];
+					break;
+					break;
+				}
+		}
+	}
+	setcolor(BLACK);
+	circle(two_one,two_two,15);
+	circle(two_one,two_two,16);
+	circle(two_one,two_two,17);
 }
 void backButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight, string input_string)
 {
@@ -818,6 +876,7 @@ void p1DiceButton(int buttonX = 10, int buttonY = 620, int buttonWidth = 180, in
 				srand(time(0));
 				x = ((rand() % 6) + 1);
 				// Score's counting should start after getting "6" in dice at first
+//				while (p1score == )
 				if (p1score == 0)
 				{
 					if (x == 6)
@@ -865,12 +924,6 @@ void p1DiceButton(int buttonX = 10, int buttonY = 620, int buttonWidth = 180, in
 }
 void p2DiceButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight)
 {
-	// Draw the button
-	setfillstyle(SOLID_FILL, RED);
-	bar(buttonX, buttonY, buttonX + buttonWidth, buttonY + buttonHeight);
-	setbkcolor(RED);
-	outtextxy(buttonX + 25, buttonY + 15, "Roll Dice");
-
 	// Check if the button is clicked
 	if (true)
 	{
@@ -934,18 +987,25 @@ void p2DiceButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight)
 void playPage()
 {
 		board();
-		outtextxy(200, 20, "Player 1 scores:    ");
-		outtextxy(480, 20, p1string);
-		outtextxy(1000, 20, "Player 2 Scores:     ");
-		outtextxy(1240, 20, p2string);
-		scoreCircles();
+		settextstyle(1,0,3);
+		setbkcolor(LIGHTRED);
+		outtextxy(535, 30, p1string);
+		outtextxy(960, 30, p2string);
+		scoreCircle1();
+		scoreCircle2();
 		if (i % 2 == 0)
 		{
 			p1DiceButton();
+			setcolor(WHITE);
+			circle(230,650,17);
+			setcolor(YELLOW);
+			floodfill(230,650,WHITE);
 		}
 		else
 		{	
-			p2DiceButton(1140, 620, 200, 50);	
+			p2DiceButton(1140, 620, 200, 50);
+			circle(1110,660,17);
+			floodfill(1110,660,BLACK);
 		}
 }
 void optionPage()
@@ -955,8 +1015,8 @@ void optionPage()
 }
 void welcomePage()
 {
-		readimagefile("welcomePage.jpg", 0, 0, 1366, 768);
-		putimage(0, 0, &bgiout, 0);
+	readimagefile("welcomePage.jpg", 0, 0, 1366, 768);
+	putimage(0, 0, &bgiout, 0);
 }
 void exitMessage()
 {
@@ -1028,9 +1088,14 @@ void turnMusicOff()
 	readimagefile("optionPage1.jpg", 0, 0, 1366, 768);
 	putimage(0, 0, &bgiout, 0);
 }
-void howpage()
+void howPage()
 {
 	readimagefile("how_to_play.jpg", 0, 0, 1366, 768);
+	putimage(0, 0, &bgiout, 0);
+}
+void aboutPage()
+{
+	readimagefile("about.jpg", 0, 0, 1366, 768);
 	putimage(0, 0, &bgiout, 0);
 }
 void musicOffButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight)
@@ -1082,7 +1147,7 @@ void howToPlayButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight
 			{
 				// Action on button pressed
 				clearmouseclick(WM_LBUTTONDOWN);
-				exit(0);
+				how++;
 			}
 		}
 	}
@@ -1100,7 +1165,7 @@ void aboutUsButton(int buttonX, int buttonY, int buttonWidth, int buttonHeight)
 			{
 				// Action on button pressed
 				clearmouseclick(WM_LBUTTONDOWN);
-				exit(0);
+				about++;
 			}
 		}
 	}

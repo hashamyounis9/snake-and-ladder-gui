@@ -1,0 +1,25 @@
+FAQ's:
+
+How do I play? 
+Two players roll a die to move their circles around the board. First to reach the end wins.
+
+How do I roll the dice?
+ Click the "Roll Dice" button.
+
+How do I move my circle? 
+Your circle is moved automatically to the location where it belongs.
+
+How do I win? 
+First to reach the end wins.
+
+What are the different types of spaces? 
+Start, snake, ladder, home.
+
+What are the different rules? 
+When you get "6" cosecutively from dice rolling, your scores from these dice rolls are gone. When you reach at a number with mathematical expression, this expression is applied to this number(Sometimes benifitioal and sometimes makes loss of scores). Your "Dice Roll" button only works when it's your turn to roll the dice(the turn of player is shown with a circle near "Roll Dice" button, when the circle is near your "Dice Roll" button, your button only works that time.
+
+What are some tips? 
+Land on ladders/expressions which will increase your scores, avoid snakes/expressions which decrease number of scores.
+
+Anything else? 
+2 players, ages any/recommended for kids, 10x10 grid.

@@ -1,0 +1,9 @@
+How to run:
+	To run this game you will need to setup your IDE a lttle bit.
+In this note, I will tell you how to run above proggram successfully in Dev-C++ IDE.
+1. Install Dev-C++ IDE on your device.
+2. Clone the repository to your local machine.
+3. Follow the instructions in this video "https://www.youtube.com/watch?v=CHFyEnlMnxg&t=190s" to be able to run graphics program in Dev-C++
+4. Follow the instructions in this video "https://youtu.be/34d4iGHvm1g" to be able to play soound in Dev-C++ IDE
+5. You are required to create a new project in Dev-C++ in the way told in 4th point's video link and paste the code of this repository in that file.
+6. Now click "Compile and Run" button and there you go, your program is running with background sound and a Graphical User Interface.
