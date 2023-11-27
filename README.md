@@ -43,12 +43,7 @@ Welcome to the Snake and Ladder Game developed in C++ with a graphical user inte
 
 ## Contributors
 
-- [Your Name](https://github.com/your-username)
-- [Collaborator Name](https://github.com/collaborator-username)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- [Hasham Younas](https://github.com/hashamyounis9/)
 
 ---
 
