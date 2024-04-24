@@ -1,4 +1,6 @@
 # Snake and Ladder Game
+![](welcomePage.JPG)
+
 
 Welcome to the Snake and Ladder Game developed in C++ with a graphical user interface using the graphics.h library.
 
